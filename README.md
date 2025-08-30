@@ -45,7 +45,7 @@ O projeto segue a arquitetura **DDD (Domain-Driven Design)**, separando camadas 
 POST /api/register
 Campos obrigatórios: `name`, `email`, `password`, `cpf`  
 
-** Comando para alterar status do usuário criado **
+## Comando para alterar status do usuário criado
 php artisan user:status emailcadastrado@email.com approved
 
 ### Após trocar o status atráves do terminal, você já vai poder fazer login
